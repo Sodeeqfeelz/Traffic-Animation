@@ -1,0 +1,234 @@
+* {
+    margin: 0px;
+}
+body {
+    overflow: hidden;
+}
+#house {
+    position: absolute;
+    top: 55px;
+}
+.road1 {
+    position: relative;
+    top: -5px;
+}
+.convet {
+    position: relative;
+    top: -15px;
+    height: 50px;
+    background-color: greenyellow;
+}
+.road2 {
+    position: relative;
+    top: -20px;
+} 
+#aero {
+    position: relative;
+    top: -860px;
+    left: 1200px;
+    z-index: 1;
+}
+#aero {
+  animation: aero 2s ease-out infinite;
+}
+@keyframes aero {
+    0% {
+        right: 0px;
+    }
+    100% {
+        left: -400px;
+    }
+}
+#heli {
+    position: relative;
+    top: -720px;
+    left: 750px;
+    z-index: 1;
+}
+#heli {
+    animation: heli 3s ease-out infinite;
+  }
+  @keyframes heli {
+      0% {
+          right: 0px;
+      }
+      100% {
+          left:-700px;
+      }
+  }
+#bird1 {
+    position: relative;
+    top: -800px;
+    left: -500px;
+    width: 200px;
+}
+#bird2 {
+    position: relative;
+    top: -850px;
+    left: -310px;
+    width: 200px;
+}
+#walk {
+    position: relative;
+    top: -670px;
+    left: 100px;
+    width: 120px;
+}
+#walk {
+    animation: walk 9s ease-out infinite;
+  }
+  @keyframes walk {
+      0% {
+          right: 0px;
+      }
+      100% {
+          right: 0px;
+          left: -1300px;
+      }
+  }
+#wave {
+    position: relative;
+    top: -870px;
+    left: -90px;
+    width: 145px;
+}
+#wave {
+    animation: wave 9s ease-out infinite;
+  }
+  @keyframes wave {
+      0% {
+          left: 0px;
+      }
+      100% {
+          left: 1400px;
+      }
+  }
+#truck1 {
+    position: relative;
+    top: -680px;
+    left: 990px;
+    width: 200px;
+    z-index: 1;
+}
+#truck1 {
+    animation: truck1 4s ease-out infinite;
+  }
+  @keyframes truck1 {
+      0% {
+          right: 0px;
+      }
+      100% {
+          left:-390px;
+      }
+    }
+#bicycle1 {
+    position: relative;
+    top: -840px;
+    left: 850px;
+    width: 200px;
+    height: 150px;
+}
+#bicycle1 {
+    animation: bicycle1 4s ease-out infinite;
+  }
+  @keyframes bicycle1 {
+      0% {
+          right: 0px;
+      }
+      100% {
+          left:-600px;
+      }
+    }
+#taxi1 {
+    position: relative;
+    top: -750px;
+    left: 500px;
+    width: 200px;
+}
+#taxi1 {
+    animation: taxi1 3s ease-out infinite;
+  }
+  @keyframes taxi1 {
+      0% {
+          right: 0px;
+      }
+      100% {
+          left:-800px;
+      }
+    }
+#taxi2 {
+    position: relative;
+    top: -560px;
+    left: -850px;
+    width: 200px;
+}
+#taxi2 {
+    animation: taxi2 3s ease-out infinite;
+  }
+  @keyframes taxi2 {
+      0% {
+          left: -850px;
+      }
+      100% {
+          left:550px;
+      }
+    }
+#bicycle2 {
+    position: relative;
+    top: -690px;
+    width: 200px;
+    height: 150px;
+}
+#bicycle2 {
+    animation: bicycle2 4s ease-out infinite;
+  }
+  @keyframes bicycle2 {
+      0% {
+          left: -740px;
+      }
+      100% {
+          left:1400px;
+      }
+    }
+#taxi2 {
+    animation: taxi2 3s ease-out infinite;
+  }
+  @keyframes taxi2 {
+      0% {
+          left: -850px;
+      }
+      100% {
+          left:550px;
+      }
+    }
+#truck2 {
+    position: relative;
+    top: -500px;
+    left: -990px;
+    width: 200px;
+}
+#truck2 {
+    animation: truck2 4s ease-out infinite;
+  }
+  @keyframes truck2 {
+      0% {
+          left: -1030px;
+      }
+      100% {
+          left:550px;
+      }
+    }
+.pole {
+    position: relative;
+    top: -1060px;
+    z-index: 1;
+}
+#img2 {
+    position: relative;
+    left: 400px;
+}
+#img3 {
+    position: relative;
+    left: 700px;
+}
+
